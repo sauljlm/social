@@ -1,0 +1,54 @@
+.posts {
+    margin-top: 25px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    padding: 35px 0;
+    position: relative;
+}
+
+.post__image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 280px;
+    width: 100%;
+}
+
+.post__cont-gallery {
+    max-width: 100%;
+    overflow: auto;
+}
+
+.post__gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    left: 0;
+    transition: 1s;
+}
+
+.post__name {
+    color: #000;
+}
+
+.post__btn {
+    background-size: cover;
+    border: none;
+    height: 25px;
+    position: absolute;
+    top: 45%;
+    width: 25px;
+    z-index: 1;
+}
+
+.post__btn-previous {
+    background-image: url('../static/previous.png');
+}
+
+.post__btn-next {
+    background-image: url('../static/next.png');
+    right: 0;
+}

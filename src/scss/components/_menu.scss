@@ -1,0 +1,16 @@
+.nav {
+    align-items: center;
+    background-color: #000000;
+    display: flex;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+}
+
+.nav__cont {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 50%;
+}

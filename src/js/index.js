@@ -1,5 +1,5 @@
 // Load scripts.
-import Player from './player';
+import Social from './social';
 import Singleton from './singleton';
 
 // Load styles.
@@ -8,11 +8,11 @@ import '../scss/style.scss';
 import './registerServiceWorker';
 
 let singleton = new Singleton(); // eslint-disable-line
-let player = null;
+let social = null;
 
 function appStar() {
-  player = new Player();
-  player.startRender();
+  social = new Social();
+  social.startRender();
 }
 
 async function init() {

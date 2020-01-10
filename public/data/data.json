@@ -1,0 +1,12 @@
+{
+  "posts": [
+    {
+      "name" : "Mustang red",
+      "Img_src" : ["static/car-red.jpg", "static/car-red-2.png"]
+    },
+    {
+      "name" : "Mustang blue",
+      "Img_src" : ["static/car-blue.png", "static/car-blue-2.jpg"]
+    }
+  ]
+}

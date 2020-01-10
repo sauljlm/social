@@ -2,7 +2,8 @@ let instance = null;
 export default class Singleton {
   constructor() {
     this.data = null;
-    this.url = 'http://localhost:1234';
+    // this.url = 'http://localhost:1234';
+    this.url = './data/data.json';
 
     if (!instance) {
       instance = this;
